@@ -11,14 +11,25 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Guias",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Boas Vindas!",
             "pages": [
-              "introduction",
+              "bem-vindo-ao-zapius",
               "quickstart",
               "development"
+            ]
+          },
+          {
+            "group": "Primeiros Passos",
+            "pages": [
+              "primeiros-passos/crie-sua-conta",
+              "primeiros-passos/crie-seu-workspace",
+              "primeiros-passos/images",
+              "primeiros-passos/settings",
+              "primeiros-passos/navigation",
+              "primeiros-passos/reusable-snippets"
             ]
           },
           {
@@ -57,38 +68,22 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
+          "anchor": "Preciso de Ajuda",
           "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "headset"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo-horizontal-light.svg",
+    "dark": "/logo/logo-horizontal-dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Fazer login",
+      "href": "https://www.zapius.com.br/entrar"
     }
   },
   "footer": {
