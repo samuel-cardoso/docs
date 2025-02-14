@@ -9,72 +9,33 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guias",
-        "groups": [
-          {
-            "group": "Boas Vindas!",
-            "pages": [
-              "bem-vindo-ao-zapius",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Primeiros Passos",
-            "pages": [
-              "primeiros-passos/crie-sua-conta",
-              "primeiros-passos/crie-seu-workspace",
-              "primeiros-passos/images",
-              "primeiros-passos/settings",
-              "primeiros-passos/navigation",
-              "primeiros-passos/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Preciso de Ajuda",
-          "href": "https://mintlify.com/blog",
-          "icon": "headset"
-        }
+  "groups": [
+    {
+      "group": "Boas Vindas!",
+      "pages": [
+        "bem-vindo-ao-zapius"
+      ]
+    },
+    {
+      "group": "Primeiros Passos",
+      "pages": [
+        "primeiros-passos/crie-sua-conta",
+        "primeiros-passos/crie-seu-workspace",
+        "primeiros-passos/fazer-pagamento",
+        "primeiros-passos/integracao-com-whatsapp"
       ]
     }
-  },
+  ],
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Preciso de Ajuda",
+        "href": "https://mintlify.com/blog",
+        "icon": "headset"
+      }
+    ]
+  }
+},
   "logo": {
     "light": "/logo/logo-horizontal-light.svg",
     "dark": "/logo/logo-horizontal-dark.svg"
@@ -93,4 +54,5 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
+  
 }
