@@ -9,33 +9,44 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-  "groups": [
-    {
-      "group": "Boas Vindas!",
-      "pages": [
-        "bem-vindo-ao-zapius"
-      ]
-    },
-    {
-      "group": "Primeiros Passos",
-      "pages": [
-        "primeiros-passos/crie-sua-conta",
-        "primeiros-passos/crie-seu-workspace",
-        "primeiros-passos/fazer-pagamento",
-        "primeiros-passos/integracao-com-whatsapp"
+    "groups": [
+      {
+        "group": "Boas Vindas!",
+        "pages": ["bem-vindo-ao-zapius"]
+      },
+      {
+        "group": "Primeiros Passos",
+        "pages": [
+          "primeiros-passos/crie-sua-conta",
+          "primeiros-passos/crie-seu-workspace",
+          "primeiros-passos/fazer-pagamento",
+          "primeiros-passos/integracao-com-whatsapp"
+        ]
+      },
+      {
+        "group": "Ferramentas",
+        "pages": [
+          "ferramentas/crm-kanban",
+          "ferramentas/contatos",
+          "ferramentas/notas",
+          "ferramentas/follow-up",
+          "ferramentas/mensagens-rapidas",
+          "ferramentas/nova-conversa",
+          "ferramentas/atendentes",
+          "ferramentas/agentes-ia"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Preciso de Ajuda",
+          "href": "https://mintlify.com/blog",
+          "icon": "headset"
+        }
       ]
     }
-  ],
-  "global": {
-    "anchors": [
-      {
-        "anchor": "Preciso de Ajuda",
-        "href": "https://mintlify.com/blog",
-        "icon": "headset"
-      }
-    ]
-  }
-},
+  },
   "logo": {
     "light": "/logo/logo-horizontal-light.svg",
     "dark": "/logo/logo-horizontal-dark.svg"
@@ -54,5 +65,4 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-  
 }
